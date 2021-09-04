@@ -38,5 +38,6 @@ task = Task.new('テニスをする', '2021-09-20')
 
 # Taskインスタンスに対して未定義のメソッドを呼ぶとmethod_missingがオーバーライドされる
 task.non_exist_method
+# => "non_exist_methodだよ。"
 
 # rubocop:disable all
